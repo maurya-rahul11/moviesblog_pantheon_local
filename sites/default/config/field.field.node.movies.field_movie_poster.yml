@@ -1,0 +1,38 @@
+uuid: 3c312567-1f38-4f50-89f0-230e22ef03dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_poster
+    - node.type.movies
+  module:
+    - image
+id: node.movies.field_movie_poster
+field_name: field_movie_poster
+entity_type: node
+bundle: movies
+label: 'Movie Poster'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ed782416-558c-46e4-ad8a-29e0275d7690
+    alt: ''
+    title: ''
+    width: 200
+    height: 300
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

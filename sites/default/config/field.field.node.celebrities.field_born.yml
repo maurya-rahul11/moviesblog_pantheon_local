@@ -1,0 +1,21 @@
+uuid: 38bf958c-05f3-4ec6-ad8e-840e8e824f88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_born
+    - node.type.celebrities
+  module:
+    - datetime
+id: node.celebrities.field_born
+field_name: field_born
+entity_type: node
+bundle: celebrities
+label: Born
+description: 'Enter Date of Birth of Celebrity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

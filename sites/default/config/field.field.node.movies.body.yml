@@ -1,0 +1,22 @@
+uuid: d58ad8c2-1c31-4e16-a775-bc1c264fcabd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.movies
+  module:
+    - text
+id: node.movies.body
+field_name: body
+entity_type: node
+bundle: movies
+label: Storyline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

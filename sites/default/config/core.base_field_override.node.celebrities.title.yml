@@ -1,0 +1,18 @@
+uuid: fa8629fa-0058-43c0-b411-b3d9fb784083
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.celebrities
+id: node.celebrities.title
+field_name: title
+entity_type: node
+bundle: celebrities
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,33 @@
+uuid: 0c83e3df-047a-4699-848b-be1be52f58c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.movies_list
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__movies_list_block_1
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:movies_list-block_1'
+settings:
+  id: 'views_block:movies_list-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      celebrities: celebrities
+      movies: movies
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,30 @@
+uuid: 82a16649-b0d4-4000-8d74-7694b81c0fd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.celebrities.body
+    - node.type.celebrities
+  module:
+    - text
+    - user
+id: node.celebrities.teaser
+targetEntityType: node
+bundle: celebrities
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

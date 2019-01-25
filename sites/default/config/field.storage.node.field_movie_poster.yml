@@ -1,0 +1,30 @@
+uuid: 37e05e95-6a86-42ff-80a3-e60011f3f5d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_movie_poster
+field_name: field_movie_poster
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 67a1bce1-b1dc-46f4-a03a-12e54d9bdedd
+    alt: ''
+    title: ''
+    width: 200
+    height: 300
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

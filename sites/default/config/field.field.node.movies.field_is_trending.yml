@@ -1,0 +1,23 @@
+uuid: 373e4d86-63af-4f38-9161-83a9050db7ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_trending
+    - node.type.movies
+id: node.movies.field_is_trending
+field_name: field_is_trending
+entity_type: node
+bundle: movies
+label: 'is trending'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: '1'
+  off_label: '0'
+field_type: boolean

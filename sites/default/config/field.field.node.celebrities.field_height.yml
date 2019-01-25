@@ -1,0 +1,19 @@
+uuid: 0127574d-cd00-4330-9800-ced5fc94d42b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_height
+    - node.type.celebrities
+id: node.celebrities.field_height
+field_name: field_height
+entity_type: node
+bundle: celebrities
+label: Height
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

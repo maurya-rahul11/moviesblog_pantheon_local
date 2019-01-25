@@ -1,0 +1,22 @@
+uuid: b28c088b-d3a3-4e87-b1e5-6fc2f42e8915
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.celebrities
+  module:
+    - text
+id: node.celebrities.body
+field_name: body
+entity_type: node
+bundle: celebrities
+label: Bio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
